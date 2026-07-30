@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "topics": [
+    {"id": "TOP-001", "category": "work culture", "prompt": "Should meetings default to 25 or 50 minutes?", "followUps": ["What would improve?", "Who might disagree?"]},
+    {"id": "TOP-002", "category": "AI", "prompt": "Which workplace tasks should not be automated?", "followUps": ["What is the main risk?", "What safeguard would help?"]},
+    {"id": "TOP-003", "category": "leadership", "prompt": "What makes a status update trustworthy?", "followUps": ["How much detail is enough?", "Give an example."]},
+    {"id": "TOP-004", "category": "decision making", "prompt": "When is a fast decision better than more analysis?", "followUps": ["What can go wrong?", "How would you reverse it?"]},
+    {"id": "TOP-005", "category": "global business", "prompt": "How should teams handle time-zone inequality?", "followUps": ["What rule is fair?", "What trade-off remains?"]},
+    {"id": "TOP-006", "category": "career", "prompt": "Which communication skill has the highest career value?", "followUps": ["How can it be measured?", "How would you practice it?"]},
+    {"id": "TOP-007", "category": "economy", "prompt": "How do uncertain markets change project planning?", "followUps": ["Which assumptions matter?", "What should remain fixed?"]},
+    {"id": "TOP-008", "category": "travel", "prompt": "What makes a business trip productive?", "followUps": ["What is often wasted?", "What would you prepare?"]},
+    {"id": "TOP-009", "category": "ethics", "prompt": "When should a company disclose an internal mistake?", "followUps": ["Who needs to know?", "How should it be framed?"]},
+    {"id": "TOP-010", "category": "innovation", "prompt": "Is customer feedback always useful for innovation?", "followUps": ["When can it mislead?", "What other evidence helps?"]}
+  ]
+}

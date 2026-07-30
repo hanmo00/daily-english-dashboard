@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "AI English Coach Dashboard",
+    "learnerLevel": "Upper-Intermediate",
+    "targetScore": 8.0,
+    "generatedAt": "2026-07-30",
+    "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다."
+  },
+  "sessions": [
+    {
+      "date": "2026-07-29",
+      "sessionType": "회의 역할극",
+      "topic": "일정 검토 및 다음 안건 전환",
+      "minutes": 25,
+      "speakingTurns": 24,
+      "scores": {
+        "유창성": 7.2,
+        "문법": 6.8,
+        "어휘·표현": 6.9,
+        "발음": 6.6,
+        "자신감": 7.0
+      },
+      "overall": 6.9,
+      "grammarErrors": 3,
+      "expressionGaps": 2,
+      "pronunciationIssues": 2,
+      "newExpressions": ["Before we move on...", "Let's look at the timeline in detail."],
+      "bestSentence": "Let's look at the timeline in detail.",
+      "correctedSentence": "Let's review the timeline in detail before we move on to the next item.",
+      "feedback": "문장 확장이 안정적. 전치사와 관사 정확도를 집중 보완.",
+      "nextChallenge": "리스크·대응책·요청사항을 3단 구조로 보고하기",
+      "weaknesses": ["전치사", "관사", "발음 연결"],
+      "keywords": [
+        {"text": "timeline", "weight": 9},
+        {"text": "in detail", "weight": 9},
+        {"text": "move on", "weight": 8},
+        {"text": "meeting transition", "weight": 7},
+        {"text": "sentence expansion", "weight": 8},
+        {"text": "prepositions", "weight": 9},
+        {"text": "articles", "weight": 8},
+        {"text": "risk", "weight": 7},
+        {"text": "response", "weight": 7},
+        {"text": "request", "weight": 7},
+        {"text": "structured report", "weight": 8},
+        {"text": "fluency", "weight": 6}
+      ],
+      "completed": true
+    }
+  ]
+}

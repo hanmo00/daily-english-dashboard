@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "expressions": [
+    {"id": "EXP-001", "function": "transition", "expression": "Before we move on, I'd like to clarify one point.", "note": "pause the agenda politely"},
+    {"id": "EXP-002", "function": "progress", "expression": "We're on track to complete the first phase by Friday.", "note": "give status plus date"},
+    {"id": "EXP-003", "function": "risk", "expression": "There is a risk that the dependency will delay testing.", "note": "name risk and impact"},
+    {"id": "EXP-004", "function": "mitigation", "expression": "To minimize the impact, we're running both tasks in parallel.", "note": "connect action to risk"},
+    {"id": "EXP-005", "function": "request", "expression": "What we need from you is a decision by Thursday.", "note": "make the ask explicit"},
+    {"id": "EXP-006", "function": "comparison", "expression": "Option A is faster, whereas option B is easier to maintain.", "note": "balanced contrast"},
+    {"id": "EXP-007", "function": "recommendation", "expression": "On balance, I recommend the second option.", "note": "signal a considered judgment"},
+    {"id": "EXP-008", "function": "uncertainty", "expression": "Based on what we know today, the estimate is still achievable.", "note": "qualify confidence"},
+    {"id": "EXP-009", "function": "disagreement", "expression": "I see the logic, but I have a different concern.", "note": "acknowledge before disagreeing"},
+    {"id": "EXP-010", "function": "clarification", "expression": "When you say urgent, what timeframe do you have in mind?", "note": "clarify vague language"},
+    {"id": "EXP-011", "function": "ownership", "expression": "I'll take responsibility for coordinating the next steps.", "note": "confirm ownership"},
+    {"id": "EXP-012", "function": "summary", "expression": "To recap, we agreed on the scope, owner, and deadline.", "note": "close with actions"},
+    {"id": "EXP-013", "function": "negotiation", "expression": "If you can confirm the volume, we can hold the current price.", "note": "conditional offer"},
+    {"id": "EXP-014", "function": "interruption", "expression": "Could I briefly add something to that?", "note": "enter the conversation"},
+    {"id": "EXP-015", "function": "evidence", "expression": "The main evidence for this is the last three test cycles.", "note": "support a claim"}
+  ]
+}

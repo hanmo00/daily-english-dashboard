@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "questions": [
+    {"id": "SQ-001", "type": "evidence", "question": "What evidence supports that estimate?", "strategy": "claim, evidence, confidence"},
+    {"id": "SQ-002", "type": "deadline", "question": "Can you still meet the original deadline?", "strategy": "direct answer, condition, mitigation"},
+    {"id": "SQ-003", "type": "accountability", "question": "Who is responsible for this issue?", "strategy": "owner, action, follow-up"},
+    {"id": "SQ-004", "type": "alternative", "question": "What is the fallback if this plan fails?", "strategy": "trigger, fallback, cost"},
+    {"id": "SQ-005", "type": "priority", "question": "Why is this more urgent than the other work?", "strategy": "impact, timing, trade-off"},
+    {"id": "SQ-006", "type": "challenge", "question": "Why should we trust this forecast?", "strategy": "method, track record, uncertainty"},
+    {"id": "SQ-007", "type": "constraint", "question": "What would you cut if the budget dropped by 20%?", "strategy": "protect, reduce, consequence"},
+    {"id": "SQ-008", "type": "stakeholder", "question": "Who is likely to disagree, and why?", "strategy": "stakeholder, interest, response"},
+    {"id": "SQ-009", "type": "speed", "question": "What can we do by tomorrow?", "strategy": "minimum action, owner, limitation"},
+    {"id": "SQ-010", "type": "reflection", "question": "What would you do differently next time?", "strategy": "lesson, change, expected result"}
+  ]
+}

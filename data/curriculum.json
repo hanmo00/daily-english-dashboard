@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "weeks": [
+    {"week": 1, "focus": "Clear updates", "functions": ["summarize progress", "sequence information"], "challenge": "90-second structured update"},
+    {"week": 2, "focus": "Delays and risks", "functions": ["explain causes", "describe impact", "propose mitigation"], "challenge": "answer two follow-up questions"},
+    {"week": 3, "focus": "Decision requests", "functions": ["frame a decision", "state recommendation"], "challenge": "request a decision under time pressure"},
+    {"week": 4, "focus": "Comparing options", "functions": ["compare trade-offs", "qualify claims"], "challenge": "recommend one of three alternatives"},
+    {"week": 5, "focus": "Meeting leadership", "functions": ["open meetings", "transition", "close with actions"], "challenge": "lead a ten-minute agenda"},
+    {"week": 6, "focus": "Manager questions", "functions": ["respond concisely", "bridge to evidence"], "challenge": "handle unexpected executive questions"},
+    {"week": 7, "focus": "Negotiation", "functions": ["clarify interests", "make conditional offers"], "challenge": "reach a workable compromise"},
+    {"week": 8, "focus": "Stakeholder alignment", "functions": ["surface disagreement", "confirm ownership"], "challenge": "align teams with competing priorities"},
+    {"week": 9, "focus": "Persuasion", "functions": ["build a case", "address objections"], "challenge": "defend a proposal"},
+    {"week": 10, "focus": "News and trends", "functions": ["summarize facts", "separate fact from opinion"], "challenge": "deliver a 90-second news brief"},
+    {"week": 11, "focus": "Cross-cultural communication", "functions": ["soften disagreement", "check understanding"], "challenge": "repair a misunderstanding"},
+    {"week": 12, "focus": "Integrated simulation", "functions": ["lead", "report", "negotiate", "reflect"], "challenge": "complete a full project review"}
+  ]
+}
