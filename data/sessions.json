@@ -45,6 +45,38 @@
         {"text": "fluency", "weight": 6}
       ],
       "completed": true
+    },
+    {
+      "date": "2026-07-30",
+      "sessionType": "English Coaching",
+      "topic": "Bidding Project & Local Logistics",
+      "minutes": 20,
+      "speakingTurns": 8,
+      "scores": {
+        "유창성": 7.5,
+        "문법": 7.0,
+        "어휘·표현": 7.5,
+        "발음": 8.0,
+        "자신감": 8.0
+      },
+      "overall": 7.6,
+      "grammarErrors": 3,
+      "expressionGaps": 2,
+      "pronunciationIssues": 1,
+      "newExpressions": ["scope of work", "local contacts", "procurement risks"],
+      "bestSentence": "I will contact local partners to clarify costs of materials.",
+      "correctedSentence": "The consultant asked whether we would participate or cooperate.",
+      "feedback": "Improved logical flow; work on precise verb forms.",
+      "nextChallenge": "Explaining a project delay and requesting a decision.",
+      "weaknesses": ["verb forms", "logical sequencing", "precise word choice"],
+      "keywords": [
+        {"text": "bidding project", "weight": 8},
+        {"text": "local logistics", "weight": 9},
+        {"text": "procurement risks", "weight": 9},
+        {"text": "scope of work", "weight": 8},
+        {"text": "verb forms", "weight": 7}
+      ],
+      "completed": true
     }
   ]
 }
