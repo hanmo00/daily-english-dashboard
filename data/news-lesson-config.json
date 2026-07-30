@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "selection": {
+    "recencyHours": 72,
+    "preferredTopics": ["business", "technology", "economy", "workplace"],
+    "sourceRequirements": ["reputable publisher", "clear publication date", "suitable for B2 discussion"],
+    "doNotStoreFullArticle": true
+  },
+  "lesson": [
+    {"stage": "listen", "minutes": 2, "instruction": "Give a 45–60 second spoken brief with three facts."},
+    {"stage": "check", "minutes": 3, "instruction": "Ask two factual comprehension questions, one at a time."},
+    {"stage": "explain", "minutes": 5, "instruction": "Ask why the story matters and what impact it could have."},
+    {"stage": "discuss", "minutes": 6, "instruction": "Ask for an opinion, evidence, and a response to one counterargument."},
+    {"stage": "summarize", "minutes": 3, "instruction": "Request a 60–90 second summary separating fact and opinion."},
+    {"stage": "review", "minutes": 3, "instruction": "Correct one or two high-impact issues and retain three expressions."}
+  ],
+  "savedRecord": ["source URL", "headline", "short summary", "discussion questions", "retained expressions"],
+  "recommendedFrequency": "twice per week, about 20–25% of sessions"
+}
