@@ -24,8 +24,28 @@
       var tooltip = d3.select("#tooltip");
       var fmt1 = d3.format(".1f");
 
+      function setSafeHtml(element, html, allowedTags) {
+        var template = document.createElement("template");
+        template.innerHTML = String(html == null ? "" : html);
+        Array.prototype.slice.call(template.content.querySelectorAll("*")).forEach(function (node) {
+          var tag = node.tagName.toLowerCase();
+          if (allowedTags.indexOf(tag) === -1) {
+            node.replaceWith(document.createTextNode(node.textContent));
+            return;
+          }
+          Array.prototype.slice.call(node.attributes).forEach(function (attribute) {
+            if (!(tag === "span" && attribute.name === "class" && attribute.value === "accent")) {
+              node.removeAttribute(attribute.name);
+            }
+          });
+        });
+        element.textContent = "";
+        element.appendChild(template.content);
+      }
+
       function showTip(html, event) {
-        tooltip.html(html)
+        setSafeHtml(tooltip.node(), html, ["strong", "br"]);
+        tooltip
           .style("left", event.clientX + "px")
           .style("top", event.clientY + "px")
           .style("opacity", 1);
@@ -422,7 +442,7 @@
         host.selectAll("*").remove();
         var card=host.selectAll("article").data(cards).enter().append("article").attr("class","card insight-card");
         card.append("h3").text(function(d){return d.title;});
-        card.append("p").html(function(d){return d.body;});
+        card.append("p").each(function(d){setSafeHtml(this,d.body,["span"]);});
       }
 
       function renderPriorities(s) {
@@ -538,7 +558,10 @@
       });
       document.getElementById("printBtn").addEventListener("click",function(){window.print();});
       document.getElementById("downloadHtmlBtn").addEventListener("click",function(){
-        document.getElementById("dashboard-data").textContent=JSON.stringify(dataPayload());
+        var inlineData=JSON.stringify(dataPayload()).replace(/[<>&\u2028\u2029]/g,function(character){
+          return "\\u"+("0000"+character.charCodeAt(0).toString(16)).slice(-4);
+        });
+        document.getElementById("dashboard-data").textContent=inlineData;
         var serialized="<!doctype html>\n"+document.documentElement.outerHTML;
         downloadBlob(serialized,"text/html;charset=utf-8","AI_English_Coach_Interactive_Dashboard_updated.html");
       });
@@ -562,6 +585,7 @@
               document.getElementById("targetValue").textContent=fmt1(state.target);
             }
             renderAll();
+            document.getElementById("statusMessage").style.color="";
             document.getElementById("statusMessage").textContent="JSON 데이터를 불러왔습니다. 현재 데이터 포함 HTML 저장으로 새 파일을 보관할 수 있습니다.";
           }catch(err){
             document.getElementById("statusMessage").style.color="var(--danger)";
