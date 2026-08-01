@@ -196,6 +196,119 @@
         }
       ],
       "completed": true
+    },
+    {
+      "date": "2026-07-31",
+      "sessionType": "Voice",
+      "topic": "Explaining Delays",
+      "minutes": 20,
+      "speakingTurns": 10,
+      "scores": {
+        "유창성": 7.5,
+        "문법": 7.5,
+        "어휘·표현": 7.5,
+        "발음": 7.5,
+        "자신감": 7.5
+      },
+      "overall": 7.5,
+      "grammarErrors": null,
+      "expressionGaps": null,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "rely on outdated cost data",
+        "factor that in",
+        "explore potential cost-saving options"
+      ],
+      "bestSentence": "Then, would you like us to investigate more to decrease the price, or you just accept this price and go further?",
+      "correctedSentence": "Would you like us to explore potential cost-saving options, or do you feel comfortable proceeding with the current estimate?",
+      "feedback": "You explained the cause of the cost increase and offered the stakeholder a clear decision. Focus on smoother delivery and precise word choice under time pressure.",
+      "nextChallenge": "Handle a skeptical stakeholder question about a delay and request a decision.",
+      "weaknesses": [
+        "word choice under time pressure",
+        "sentence structure",
+        "smooth delivery"
+      ],
+      "keywords": [
+        {
+          "text": "explaining delays",
+          "weight": 9
+        },
+        {
+          "text": "cost increase",
+          "weight": 9
+        },
+        {
+          "text": "outdated cost data",
+          "weight": 8
+        },
+        {
+          "text": "cost-saving options",
+          "weight": 8
+        },
+        {
+          "text": "stakeholder decision",
+          "weight": 8
+        },
+        {
+          "text": "word choice",
+          "weight": 7
+        }
+      ],
+      "completed": true
+    },
+    {
+      "date": "2026-07-31",
+      "sessionType": "Voice",
+      "topic": "Travel Recommendations: Jeju Island & Scotland",
+      "minutes": 4,
+      "speakingTurns": 5,
+      "scores": {
+        "유창성": null,
+        "문법": null,
+        "어휘·표현": null,
+        "발음": null,
+        "자신감": null
+      },
+      "overall": null,
+      "grammarErrors": 1,
+      "expressionGaps": 1,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "it feels like a completely different world",
+        "abalone"
+      ],
+      "bestSentence": null,
+      "correctedSentence": "You should try the seafood, especially abalone, which is famous on Jeju Island.",
+      "feedback": "You recommended Jeju Island and Scotland and supported Jeju with scenery and food examples. Build more vivid reasons and retrieve precise vocabulary more quickly.",
+      "nextChallenge": "Give a 60-second travel recommendation using a destination, two reasons, and one must-try food.",
+      "weaknesses": [
+        "sentence structure",
+        "precise word choice",
+        "developing reasons"
+      ],
+      "keywords": [
+        {
+          "text": "travel recommendation",
+          "weight": 9
+        },
+        {
+          "text": "Jeju Island",
+          "weight": 9
+        },
+        {
+          "text": "Scotland",
+          "weight": 8
+        },
+        {
+          "text": "abalone",
+          "weight": 8
+        },
+        {
+          "text": "descriptive language",
+          "weight": 8
+        }
+      ],
+      "completed": true
     }
   ]
 }
