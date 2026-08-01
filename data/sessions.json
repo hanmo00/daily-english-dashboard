@@ -148,47 +148,59 @@
       "date": "2026-08-01",
       "sessionType": "English Coaching",
       "topic": "Webcam Purchase & Post-Trip Small Talk",
-      "minutes": 5,
-      "speakingTurns": 4,
+      "minutes": 15,
+      "speakingTurns": 9,
       "scores": {
-        "유창성": null,
-        "문법": null,
-        "어휘·표현": null,
-        "발음": null,
-        "자신감": null
+        "유창성": 6.7,
+        "문법": 6.3,
+        "어휘·표현": 6.7,
+        "발음": 7,
+        "자신감": 7.2
       },
-      "overall": null,
-      "grammarErrors": 1,
-      "expressionGaps": 1,
-      "pronunciationIssues": null,
+      "overall": 6.8,
+      "grammarErrors": 6,
+      "expressionGaps": 4,
+      "pronunciationIssues": 0,
       "newExpressions": [
         "What was the city like?",
+        "What is the city known for?",
         "Does the city have any local specialties?"
       ],
       "bestSentence": "How was your trip and how was the city?",
-      "correctedSentence": "I also heard that the food is really good. Does the city have any local specialties?",
-      "feedback": "You initiated post-trip small talk clearly. Focus on more natural question formation.",
-      "nextChallenge": "Ask two natural follow-up questions about a colleague’s trip without preparation.",
+      "correctedSentence": "I compared several Logitech models and chose a newer, more affordable one because it offered the features I needed.",
+      "feedback": "You sustained an unfamiliar everyday topic and extended your answers with comparisons, reasons, and future possibilities. Frequent sentence restarts and clause-linking errors—especially although...but, tense consistency, relative clauses, and question formation—reduced accuracy. Your speech remained intelligible, but fluency was less stable than in structured business topics.",
+      "nextChallenge": "Give a 60-second product comparison and then ask three natural follow-up questions about a colleague’s trip without preparation.",
       "weaknesses": [
+        "spontaneous topic retrieval",
+        "clause linking",
         "question formation",
+        "tense consistency",
         "natural word choice"
       ],
       "keywords": [
         {
-          "text": "small talk",
-          "weight": 9
+          "text": "webcam comparison",
+          "weight": 8
         },
         {
-          "text": "post-trip conversation",
-          "weight": 8
+          "text": "Logitech",
+          "weight": 6
+        },
+        {
+          "text": "small talk",
+          "weight": 9
         },
         {
           "text": "follow-up questions",
           "weight": 9
         },
         {
-          "text": "webcam purchase",
-          "weight": 6
+          "text": "spontaneous speaking",
+          "weight": 9
+        },
+        {
+          "text": "clause linking",
+          "weight": 8
         },
         {
           "text": "question formation",
