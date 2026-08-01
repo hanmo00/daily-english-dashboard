@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI English Coach Dashboard",
     "learnerLevel": "Upper-Intermediate",
-    "targetScore": 8.0,
+    "targetScore": 8,
     "generatedAt": "2026-07-30",
     "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다."
   },
@@ -18,31 +18,74 @@
         "문법": 6.8,
         "어휘·표현": 6.9,
         "발음": 6.6,
-        "자신감": 7.0
+        "자신감": 7
       },
       "overall": 6.9,
       "grammarErrors": 3,
       "expressionGaps": 2,
       "pronunciationIssues": 2,
-      "newExpressions": ["Before we move on...", "Let's look at the timeline in detail."],
+      "newExpressions": [
+        "Before we move on...",
+        "Let's look at the timeline in detail."
+      ],
       "bestSentence": "Let's look at the timeline in detail.",
       "correctedSentence": "Let's review the timeline in detail before we move on to the next item.",
       "feedback": "문장 확장이 안정적. 전치사와 관사 정확도를 집중 보완.",
       "nextChallenge": "리스크·대응책·요청사항을 3단 구조로 보고하기",
-      "weaknesses": ["전치사", "관사", "발음 연결"],
+      "weaknesses": [
+        "전치사",
+        "관사",
+        "발음 연결"
+      ],
       "keywords": [
-        {"text": "timeline", "weight": 9},
-        {"text": "in detail", "weight": 9},
-        {"text": "move on", "weight": 8},
-        {"text": "meeting transition", "weight": 7},
-        {"text": "sentence expansion", "weight": 8},
-        {"text": "prepositions", "weight": 9},
-        {"text": "articles", "weight": 8},
-        {"text": "risk", "weight": 7},
-        {"text": "response", "weight": 7},
-        {"text": "request", "weight": 7},
-        {"text": "structured report", "weight": 8},
-        {"text": "fluency", "weight": 6}
+        {
+          "text": "timeline",
+          "weight": 9
+        },
+        {
+          "text": "in detail",
+          "weight": 9
+        },
+        {
+          "text": "move on",
+          "weight": 8
+        },
+        {
+          "text": "meeting transition",
+          "weight": 7
+        },
+        {
+          "text": "sentence expansion",
+          "weight": 8
+        },
+        {
+          "text": "prepositions",
+          "weight": 9
+        },
+        {
+          "text": "articles",
+          "weight": 8
+        },
+        {
+          "text": "risk",
+          "weight": 7
+        },
+        {
+          "text": "response",
+          "weight": 7
+        },
+        {
+          "text": "request",
+          "weight": 7
+        },
+        {
+          "text": "structured report",
+          "weight": 8
+        },
+        {
+          "text": "fluency",
+          "weight": 6
+        }
       ],
       "completed": true
     },
@@ -54,27 +97,103 @@
       "speakingTurns": 8,
       "scores": {
         "유창성": 7.5,
-        "문법": 7.0,
+        "문법": 7,
         "어휘·표현": 7.5,
-        "발음": 8.0,
-        "자신감": 8.0
+        "발음": 8,
+        "자신감": 8
       },
       "overall": 7.6,
       "grammarErrors": 3,
       "expressionGaps": 2,
       "pronunciationIssues": 1,
-      "newExpressions": ["scope of work", "local contacts", "procurement risks"],
+      "newExpressions": [
+        "scope of work",
+        "local contacts",
+        "procurement risks"
+      ],
       "bestSentence": "I will contact local partners to clarify costs of materials.",
       "correctedSentence": "The consultant asked whether we would participate or cooperate.",
       "feedback": "Improved logical flow; work on precise verb forms.",
       "nextChallenge": "Explaining a project delay and requesting a decision.",
-      "weaknesses": ["verb forms", "logical sequencing", "precise word choice"],
+      "weaknesses": [
+        "verb forms",
+        "logical sequencing",
+        "precise word choice"
+      ],
       "keywords": [
-        {"text": "bidding project", "weight": 8},
-        {"text": "local logistics", "weight": 9},
-        {"text": "procurement risks", "weight": 9},
-        {"text": "scope of work", "weight": 8},
-        {"text": "verb forms", "weight": 7}
+        {
+          "text": "bidding project",
+          "weight": 8
+        },
+        {
+          "text": "local logistics",
+          "weight": 9
+        },
+        {
+          "text": "procurement risks",
+          "weight": 9
+        },
+        {
+          "text": "scope of work",
+          "weight": 8
+        },
+        {
+          "text": "verb forms",
+          "weight": 7
+        }
+      ],
+      "completed": true
+    },
+    {
+      "date": "2026-08-01",
+      "sessionType": "English Coaching",
+      "topic": "Webcam Purchase & Post-Trip Small Talk",
+      "minutes": 5,
+      "speakingTurns": 4,
+      "scores": {
+        "유창성": null,
+        "문법": null,
+        "어휘·표현": null,
+        "발음": null,
+        "자신감": null
+      },
+      "overall": null,
+      "grammarErrors": 1,
+      "expressionGaps": 1,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "What was the city like?",
+        "Does the city have any local specialties?"
+      ],
+      "bestSentence": "How was your trip and how was the city?",
+      "correctedSentence": "I also heard that the food is really good. Does the city have any local specialties?",
+      "feedback": "You initiated post-trip small talk clearly. Focus on more natural question formation.",
+      "nextChallenge": "Ask two natural follow-up questions about a colleague’s trip without preparation.",
+      "weaknesses": [
+        "question formation",
+        "natural word choice"
+      ],
+      "keywords": [
+        {
+          "text": "small talk",
+          "weight": 9
+        },
+        {
+          "text": "post-trip conversation",
+          "weight": 8
+        },
+        {
+          "text": "follow-up questions",
+          "weight": 9
+        },
+        {
+          "text": "webcam purchase",
+          "weight": 6
+        },
+        {
+          "text": "question formation",
+          "weight": 8
+        }
       ],
       "completed": true
     }
