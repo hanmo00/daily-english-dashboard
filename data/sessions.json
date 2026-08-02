@@ -3,8 +3,10 @@
     "title": "AI English Coach Dashboard",
     "learnerLevel": "Upper-Intermediate",
     "targetScore": 8,
-    "generatedAt": "2026-07-30",
-    "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다."
+    "generatedAt": "2026-08-03",
+    "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다.",
+    "savePolicy": "음성 인식 여부와 관계없이 텍스트 '세션 저장' 명령을 동일한 GitHub 저장 절차로 처리합니다.",
+    "lessonNotePolicy": "완료된 각 세션에는 실제 발화, 핵심 교정, 목표 표현, 최종 버전, 복습 질문과 D+1·D+3·D+7 일정이 포함된 lessonNote를 저장합니다."
   },
   "sessions": [
     {
@@ -321,6 +323,156 @@
         }
       ],
       "completed": true
+    },
+    {
+      "date": "2026-08-02",
+      "sessionType": "Practice",
+      "topic": "Church Orchestra, Pep Talk & Explaining a Delay",
+      "mode": "Focus",
+      "minutes": 12,
+      "speakingTurns": 7,
+      "scores": {
+        "유창성": 6.8,
+        "문법": 6.2,
+        "어휘·표현": 6.7,
+        "발음": null,
+        "자신감": 7.0
+      },
+      "overall": 6.6,
+      "grammarErrors": 5,
+      "expressionGaps": 4,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "give yourself a pep talk",
+        "get ready to go to church",
+        "one of the major factors"
+      ],
+      "bestSentence": "I have never given myself a pep talk, but that's a good idea.",
+      "correctedSentence": "Although I don't practice during the week, the violin feels different every weekend—some weeks the fingering and bowing feel natural, while other weeks they feel unfamiliar.",
+      "feedback": "You sustained an everyday topic and explained how your violin playing changes from week to week. The main communication problems were double negatives, unnecessary connectors, article errors, and unnatural verb combinations. The work-related answer had a clear cause, but it needed a shorter sentence and a concrete recovery plan.",
+      "nextChallenge": "Give a 60–90 second everyday story using context, contrast, and reflection, then explain a delay using cause, impact, and recovery.",
+      "weaknesses": [
+        "double negatives",
+        "articles",
+        "verb patterns",
+        "sentence linking",
+        "natural collocations"
+      ],
+      "keywords": [
+        {
+          "text": "church orchestra",
+          "weight": 8
+        },
+        {
+          "text": "violin practice",
+          "weight": 9
+        },
+        {
+          "text": "pep talk",
+          "weight": 8
+        },
+        {
+          "text": "week-to-week contrast",
+          "weight": 8
+        },
+        {
+          "text": "project delay",
+          "weight": 7
+        },
+        {
+          "text": "double negatives",
+          "weight": 9
+        },
+        {
+          "text": "natural collocations",
+          "weight": 9
+        }
+      ],
+      "completed": true,
+      "supportLevel": "Light",
+      "selfCorrection": null,
+      "repetitionResult": null,
+      "transferResult": null,
+      "lessonNote": {
+        "summary": [
+          "You described your Sunday preparation and your role in the church orchestra.",
+          "You compared how natural or unfamiliar violin fingering and bowing can feel from week to week.",
+          "You learned 'pep talk' and practiced explaining a project delay caused by a designer's absence."
+        ],
+        "learnerSentences": [
+          "Since it is very early in the morning, so I didn't do nothing.",
+          "I took a bath and dried my hair and trimmed, designed my hair.",
+          "Although I don't do the play a practice in weekdays, every weekend I feel it is different when it comes to playing the violin.",
+          "I have never talked to myself as a pep talk, but that's a good idea.",
+          "There was an factor that one of the major factors that the summit of the design has been delayed."
+        ],
+        "corrections": [
+          {
+            "original": "Since it is very early in the morning, so I didn't do nothing.",
+            "selfCorrectionCue": "Use either 'since' or 'so,' and remove the double negative.",
+            "natural": "Since it's still very early, I haven't done anything yet.",
+            "reason": "'Since' already shows the reason, and 'haven't done anything' is the correct negative form."
+          },
+          {
+            "original": "I took a bath and dried my hair and trimmed, designed my hair.",
+            "selfCorrectionCue": "Which verb means arranging your hair?",
+            "natural": "I took a shower, dried my hair, styled it, and chose my clothes.",
+            "reason": "Use 'style my hair,' not 'design my hair.' 'Take a shower' is also more natural for an ordinary morning routine."
+          },
+          {
+            "original": "There was an factor that one of the major factors that the summit of the design has been delayed.",
+            "selfCorrectionCue": "Fix the article and state one clear cause.",
+            "natural": "One of the main reasons for the delay was that the person in charge of the design was on vacation.",
+            "reason": "Use 'a factor,' not 'an factor,' and avoid repeating 'factor' in the same sentence."
+          }
+        ],
+        "targetExpressions": [
+          {
+            "expression": "give yourself a pep talk",
+            "meaning": "스스로에게 짧게 격려의 말을 하다",
+            "example": "Before the performance, I gave myself a quick pep talk and focused on the opening passage."
+          },
+          {
+            "expression": "feel natural",
+            "meaning": "동작이나 표현이 익숙하고 자연스럽게 느껴지다",
+            "example": "Some weeks the fingering feels natural, even when I have not practiced much."
+          },
+          {
+            "expression": "one of the main reasons",
+            "meaning": "여러 원인 가운데 주요 원인 하나를 명확히 제시하다",
+            "example": "One of the main reasons for the delay was the temporary shortage of design staff."
+          }
+        ],
+        "finalVersion": "I play the violin in my church orchestra every Sunday. What is interesting is that my playing feels different from week to week, even though I rarely practice during the week. Some Sundays, the fingering and bowing feel natural, and I feel confident. On other Sundays, the same movements feel unfamiliar, as if I have not played for a long time. Before the performance, I could give myself a short pep talk: 'Stay calm, listen to the orchestra, and focus on the music rather than worrying about mistakes.'",
+        "recallQuestions": [
+          "How would you describe the difference in your violin playing from week to week?",
+          "What could you say to yourself as a short pep talk before performing?",
+          "How would you explain a project delay using one clear cause and one recovery action?"
+        ],
+        "answerKey": [
+          "Although I do not practice during the week, the violin feels different every weekend. Some weeks the fingering and bowing feel natural, while other weeks they feel unfamiliar.",
+          "Stay calm, listen carefully, and focus on the music. I can handle the performance one passage at a time.",
+          "One of the main reasons for the delay was that the person in charge of the design was on vacation. We have reassigned the remaining work and will provide an updated schedule."
+        ],
+        "reviewSchedule": [
+          {
+            "date": "2026-08-03",
+            "stage": "D+1",
+            "result": null
+          },
+          {
+            "date": "2026-08-05",
+            "stage": "D+3",
+            "result": null
+          },
+          {
+            "date": "2026-08-09",
+            "stage": "D+7",
+            "result": null
+          }
+        ],
+        "nextChallenge": "Speak for 60–90 seconds about an ordinary weekly routine, using one contrast and one reflection without restarting the sentence."
+      }
     }
   ]
 }
