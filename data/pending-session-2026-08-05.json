@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-05",
+  "sessionType": "English Coaching",
+  "topic": "Date Confusion, Back-and-Forth, Weather Delay & Direct Workplace Feedback",
+  "mode": "Extended",
+  "minutes": 20,
+  "speakingTurns": 7,
+  "scores": {
+    "유창성": 6.7,
+    "문법": 6.2,
+    "어휘·표현": 6.8,
+    "발음": 7.1,
+    "자신감": 7.4
+  },
+  "overall": 6.8,
+  "grammarErrors": 6,
+  "expressionGaps": 4,
+  "pronunciationIssues": 1,
+  "newExpressions": [
+    "back-and-forth",
+    "The delay was due to two weeks of heavy rain.",
+    "Decisions are being made without full team input."
+  ],
+  "bestSentence": "The biggest risk in our project is you.",
+  "correctedSentence": "The main risk is that decisions are being made without enough team input, which may cause us to overlook important local conditions.",
+  "feedback": "You handled an unexpected everyday topic with humor and explained a weather-related project delay using cause, impact, and compliance risk. Your confidence was strong when expressing disagreement, but grammar accuracy and sentence control dropped as your answer became more emotional and complex. Keep the direct message, but organize it as observation, impact, evidence, and request.",
+  "nextChallenge": "Give a 60-second direct but professional disagreement using observation, impact, evidence, and a specific request without restarting sentences.",
+  "weaknesses": [
+    "tense consistency",
+    "sentence structure",
+    "articles and prepositions",
+    "self-correction while speaking",
+    "constructive disagreement"
+  ],
+  "keywords": [
+    {"text": "back-and-forth", "weight": 9},
+    {"text": "weather delay", "weight": 9},
+    {"text": "heavy rain", "weight": 8},
+    {"text": "regulatory compliance", "weight": 8},
+    {"text": "direct feedback", "weight": 9},
+    {"text": "team input", "weight": 9},
+    {"text": "professional disagreement", "weight": 10}
+  ],
+  "completed": true,
+  "supportLevel": "Moderate",
+  "selfCorrection": "Frequent reformulation in longer explanations",
+  "repetitionResult": "Accurately repeated the concise weather-delay model",
+  "transferResult": "Strong directness, but the professional structure was only partially transferred",
+  "lessonNote": {
+    "summary": [
+      "You described the humorous date confusion from August 3 versus August 5 and learned the phrase 'back-and-forth.'",
+      "You explained a two-week rain delay and the need to comply with project regulations to avoid penalties.",
+      "You practiced criticizing centralized decision-making and converting personal criticism into a persuasive professional risk statement."
+    ],
+    "learnerSentences": [
+      "Actually, your word has a dilemma.",
+      "There have been raining, so which make the project delayed.",
+      "The biggest risk in our project is you.",
+      "You make all decisions by yourself, and you don't hear our opinions.",
+      "Your way of talking is not effective to persuade our company to make our project success."
+    ],
+    "corrections": [
+      {
+        "original": "Actually, your word has a dilemma.",
+        "selfCorrectionCue": "Describe a mismatch between two statements, not a moral dilemma.",
+        "natural": "Your two statements contradict each other.",
+        "reason": "A dilemma is a difficult choice between options. Here, 'contradict' or 'do not match' expresses the meaning accurately."
+      },
+      {
+        "original": "There have been raining, so which make the project delayed.",
+        "selfCorrectionCue": "Use the weather subject 'it' and a clear cause-result structure.",
+        "natural": "It rained heavily for two weeks, which delayed the project.",
+        "reason": "Use 'it rained' for weather and 'which delayed' to describe the result."
+      },
+      {
+        "original": "Your way of talking is not effective to persuade our company to make our project success.",
+        "selfCorrectionCue": "Use 'effective in' and the adjective 'successful.'",
+        "natural": "Your communication style is not effective in persuading the company or helping the project succeed.",
+        "reason": "The natural patterns are 'effective in doing something' and 'help the project succeed.'"
+      }
+    ],
+    "targetExpressions": [
+      {
+        "expression": "back-and-forth",
+        "meaning": "두 사람이 여러 차례 주고받는 대화나 논쟁",
+        "example": "After a long back-and-forth, we finally clarified the correct date."
+      },
+      {
+        "expression": "be due to",
+        "meaning": "어떤 원인 때문에 발생하다",
+        "example": "The delay was due to two weeks of heavy rain."
+      },
+      {
+        "expression": "without full team input",
+        "meaning": "팀의 충분한 의견 수렴 없이",
+        "example": "The main risk is that key decisions are being made without full team input."
+      }
+    ],
+    "finalVersion": "The main risk is that key decisions are being made without enough team input. Our team has investigated the local conditions and identified several factors that could significantly affect the schedule. If those findings are not considered, the project may face avoidable delays and costs. I would like us to review the evidence together before making the final decision.",
+    "recallQuestions": [
+      "What does 'back-and-forth' mean, and how would you use it to describe today's date confusion?",
+      "How would you explain the weather delay in two concise sentences?",
+      "How would you criticize centralized decision-making directly but professionally?"
+    ],
+    "answerKey": [
+      "A back-and-forth is a repeated exchange between two sides. We had a funny back-and-forth because the date was repeatedly stated as August 3 even though it was August 5.",
+      "The delay was due to two weeks of heavy rain. We will resume work as soon as conditions allow while following all safety and project regulations.",
+      "The main risk is that decisions are being made without enough team input. I would like us to review the team's local evidence before finalizing the decision."
+    ],
+    "reviewSchedule": [
+      {"date": "2026-08-06", "stage": "D+1", "result": null},
+      {"date": "2026-08-08", "stage": "D+3", "result": null},
+      {"date": "2026-08-12", "stage": "D+7", "result": null}
+    ],
+    "nextChallenge": "Deliver a direct disagreement in four steps: observation, impact, evidence, and request."
+  }
+}
