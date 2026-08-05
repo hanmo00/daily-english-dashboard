@@ -1,0 +1,59 @@
+name: Append English Coaching Session
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/pending-session-*.json'
+
+permissions:
+  contents: write
+
+jobs:
+  append-session:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Append pending sessions
+        run: |
+          python - <<'PY'
+          import glob, json, os
+          target = 'data/sessions.json'
+          with open(target, encoding='utf-8') as f:
+              dashboard = json.load(f)
+          existing = {
+              (s.get('date'), s.get('topic'))
+              for s in dashboard.get('sessions', [])
+          }
+          changed = False
+          for path in sorted(glob.glob('data/pending-session-*.json')):
+              with open(path, encoding='utf-8') as f:
+                  session = json.load(f)
+              key = (session.get('date'), session.get('topic'))
+              if key not in existing:
+                  dashboard.setdefault('sessions', []).append(session)
+                  existing.add(key)
+                  changed = True
+              os.remove(path)
+          if changed:
+              dashboard.setdefault('meta', {})['generatedAt'] = max(
+                  (s.get('date', '') for s in dashboard.get('sessions', [])),
+                  default=dashboard.get('meta', {}).get('generatedAt', '')
+              )
+          with open(target, 'w', encoding='utf-8') as f:
+              json.dump(dashboard, f, ensure_ascii=False, indent=2)
+              f.write('\n')
+          PY
+      - name: Commit dashboard update
+        run: |
+          git config user.name 'english-coach-bot'
+          git config user.email 'english-coach-bot@users.noreply.github.com'
+          git add data/sessions.json data/pending-session-*.json
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Save English coaching session'
+            git push
+          fi
