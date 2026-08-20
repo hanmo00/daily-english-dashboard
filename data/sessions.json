@@ -3,7 +3,7 @@
     "title": "AI English Coach Dashboard",
     "learnerLevel": "Upper-Intermediate",
     "targetScore": 8,
-    "generatedAt": "2026-08-14",
+    "generatedAt": "2026-08-20",
     "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다.",
     "savePolicy": "음성 인식 여부와 관계없이 텍스트 '세션 저장' 명령을 동일한 GitHub 저장 절차로 처리합니다.",
     "lessonNotePolicy": "완료된 각 세션에는 실제 발화, 핵심 교정, 목표 표현, 최종 버전, 복습 질문과 D+1·D+3·D+7 일정이 포함된 lessonNote를 저장합니다."
@@ -1077,6 +1077,156 @@
           }
         ],
         "nextChallenge": "Give a 60-second opinion on an unfamiliar topic, add one example, and handle one skeptical interruption without restarting."
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "sessionType": "Practice",
+      "topic": "Asking for a Brief Check Under Time Pressure — Work & Daily Conversation",
+      "mode": "Focus",
+      "minutes": 7,
+      "speakingTurns": 9,
+      "scores": {
+        "유창성": 7.0,
+        "문법": 6.6,
+        "어휘·표현": 6.9,
+        "발음": 7.2,
+        "자신감": null
+      },
+      "overall": 6.9,
+      "grammarErrors": 4,
+      "expressionGaps": 3,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "Could I take a minute to check before we proceed?",
+        "I understand we're short on time, but a minute to check could save us from rework.",
+        "I know we're in a hurry, but can we take a minute to choose what we really want to eat?"
+      ],
+      "bestSentence": "I know we're in a hurry, but can we take a minute to choose what we really want to eat?",
+      "correctedSentence": "I understand we're short on time, but a minute to check could save us from rework. So, please let me take a minute to check again.",
+      "feedback": "You practiced making a polite request for a brief check under time pressure, first in a work situation and then in a daily conversation. Your delivery became clearer when you used the pattern acknowledge the situation, make a short request, and give one reason. The main recurring weakness was sentence control in spontaneous longer answers, especially phrases such as 'we have to be hurry' and unfinished clause structures. Keep one idea per sentence and reuse the same communication pattern across non-business topics as well.",
+      "nextChallenge": "Handle three everyday situations in 45–60 seconds each using acknowledge, request, and reason without restarting sentences.",
+      "weaknesses": [
+        "sentence structure",
+        "verb and adjective patterns",
+        "self-correction while speaking",
+        "linking expressions",
+        "fluency under pressure"
+      ],
+      "keywords": [
+        {
+          "text": "brief check",
+          "weight": 9
+        },
+        {
+          "text": "short on time",
+          "weight": 9
+        },
+        {
+          "text": "save us from rework",
+          "weight": 9
+        },
+        {
+          "text": "daily conversation",
+          "weight": 10
+        },
+        {
+          "text": "polite request",
+          "weight": 9
+        },
+        {
+          "text": "one idea per sentence",
+          "weight": 10
+        },
+        {
+          "text": "sentence restarts",
+          "weight": 8
+        }
+      ],
+      "completed": true,
+      "supportLevel": "Moderate",
+      "selfCorrection": "Successful after short modeling; the learner repeated both the work and daily-conversation target sentences accurately.",
+      "repetitionResult": "Successful. The learner produced 'Could I take a minute to check before we proceed?' and the daily lunch-choice sentence cleanly after modeling.",
+      "transferResult": "Partial-to-successful. The learner transferred the same acknowledge-and-request pattern from a work setting to a daily lunch decision, though the first spontaneous version contained grammar and structure problems.",
+      "lessonNote": {
+        "summary": [
+          "You practiced asking for a short moment to check something before proceeding when time is limited.",
+          "You strengthened the pattern 'I understand/I know we're in a rush, but...' and connected it to a practical benefit such as avoiding rework.",
+          "You transferred the same pattern from a business situation to a daily lunch-choice conversation, reflecting your preference not to focus only on business English."
+        ],
+        "learnerSentences": [
+          "Could I take a minute to check before we proceed?",
+          "Because this is our final time. We don't have additional time later.",
+          "I understand we are short on time, but a minute to check could save us from rework.",
+          "I understand we have to be hurry. But the important thing that is that we haven't made the decision what we will have for lunch.",
+          "I know we are in a hurry, but can we take a minute to choose what we really want to eat?"
+        ],
+        "corrections": [
+          {
+            "original": "May I ask choose... to have a short moment to check before we proceed?",
+            "selfCorrectionCue": "Use one direct request with 'Could I take a minute...?'",
+            "natural": "Could I take a minute to check before we proceed?",
+            "reason": "'Could I take a minute to...' is a concise and natural polite request."
+          },
+          {
+            "original": "Because this is our final time. We don't have additional time later.",
+            "selfCorrectionCue": "State the time pressure first, then explain the benefit of checking.",
+            "natural": "I understand we're short on time, but a minute to check could save us from rework.",
+            "reason": "This links the constraint and the reason in one clear persuasive sentence."
+          },
+          {
+            "original": "I understand we have to be hurry. But the important thing that is that we haven't made the decision what we will have for lunch.",
+            "selfCorrectionCue": "Use 'be in a hurry' and ask directly about the lunch choice.",
+            "natural": "I know we're in a hurry, but can we take a minute to choose what we really want to eat?",
+            "reason": "The fixed expression is 'be in a hurry,' and the direct question is shorter and more natural than 'make the decision what we will have.'"
+          }
+        ],
+        "targetExpressions": [
+          {
+            "expression": "Could I take a minute to check before we proceed?",
+            "meaning": "진행하기 전에 잠깐 확인할 시간을 정중하게 요청하다",
+            "example": "Could I take a minute to check the address before we leave?"
+          },
+          {
+            "expression": "We're short on time, but...",
+            "meaning": "시간이 부족한 상황을 인정한 뒤 반대 의견이나 요청을 부드럽게 제시하다",
+            "example": "We're short on time, but I think one quick check will prevent a mistake."
+          },
+          {
+            "expression": "be in a hurry",
+            "meaning": "서두르는 상황이다",
+            "example": "I know we're in a hurry, but let's make sure we picked the right train."
+          }
+        ],
+        "finalVersion": "When we're short on time, I still think a very quick check can be useful. In a work situation, I could say, 'Could I take a minute to check before we proceed?' If someone pushes us to move immediately, I can add, 'I understand we're short on time, but a minute to check could save us from rework.' The same idea works in daily life too. For example, if a friend wants to choose lunch immediately, I can say, 'I know we're in a hurry, but can we take a minute to choose what we really want to eat?'",
+        "recallQuestions": [
+          "How would you politely ask for one minute to check something before proceeding?",
+          "What would you say when someone argues that there is no time to check?",
+          "How can you use the same pattern in a daily situation such as choosing lunch?"
+        ],
+        "answerKey": [
+          "Could I take a minute to check before we proceed?",
+          "I understand we're short on time, but a minute to check could save us from rework.",
+          "I know we're in a hurry, but can we take a minute to choose what we really want to eat?"
+        ],
+        "reviewSchedule": [
+          {
+            "date": "2026-08-21",
+            "stage": "D+1",
+            "result": null
+          },
+          {
+            "date": "2026-08-23",
+            "stage": "D+3",
+            "result": null
+          },
+          {
+            "date": "2026-08-27",
+            "stage": "D+7",
+            "result": null
+          }
+        ],
+        "nextChallenge": "Use acknowledge, request, and reason in three new everyday situations without relying on a business context."
       }
     }
   ]
