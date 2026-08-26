@@ -3,7 +3,7 @@
     "title": "AI English Coach Dashboard",
     "learnerLevel": "Upper-Intermediate",
     "targetScore": 8,
-    "generatedAt": "2026-08-24",
+    "generatedAt": "2026-08-27",
     "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다.",
     "savePolicy": "음성 인식 여부와 관계없이 텍스트 '세션 저장' 명령을 동일한 GitHub 저장 절차로 처리합니다.",
     "lessonNotePolicy": "완료된 각 세션에는 실제 발화, 핵심 교정, 목표 표현, 최종 버전, 복습 질문과 D+1·D+3·D+7 일정이 포함된 lessonNote를 저장합니다."
@@ -1378,6 +1378,157 @@
         ],
         "nextChallenge": "Explain one daily habit you want to change, give one benefit and one downside, and state a balanced decision in 45–60 seconds without restarting sentences."
       }
+    },
+    {
+      "date": "2026-08-27",
+      "sessionType": "Practice",
+      "topic": "Travel Hair Routine & Morning Commute in Hot Weather",
+      "mode": "Focus",
+      "minutes": 7,
+      "speakingTurns": 11,
+      "scores": {
+        "유창성": 6.6,
+        "문법": 6.3,
+        "어휘·표현": 6.6,
+        "발음": 6.9,
+        "자신감": null
+      },
+      "overall": 6.6,
+      "grammarErrors": 4,
+      "expressionGaps": 3,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "instead of just towel-drying my hair",
+        "my morning commute",
+        "when the weather cools down"
+      ],
+      "bestSentence": "I want to change my morning commute because it's tiring.",
+      "correctedSentence": "It's tiring because the walk is long and the weather can be extreme. It might get better when the weather cools down in autumn.",
+      "feedback": "You practiced two everyday topics: a travel hair-drying routine and your morning commute. Your clearest answers came when you used short cause-and-effect sentences. Longer spontaneous explanations still contained restarts and unclear word choices, especially around transport and weather. Keep one idea per sentence, use simple everyday verbs, and then add one reason or prediction. You also asked for deeper, longer sessions rather than ending after only a few minutes, so future sessions should continue with additional speaking tasks until the planned practice time is substantially used.",
+      "nextChallenge": "Give a 60-second everyday explanation about one inconvenient routine using situation, problem, reason, and a future improvement, then answer one unexpected follow-up without restarting.",
+      "weaknesses": [
+        "sentence structure",
+        "word choice",
+        "prepositions and articles",
+        "self-correction while speaking",
+        "fluency in longer everyday explanations"
+      ],
+      "keywords": [
+        {
+          "text": "morning commute",
+          "weight": 10
+        },
+        {
+          "text": "daily conversation",
+          "weight": 10
+        },
+        {
+          "text": "weather",
+          "weight": 8
+        },
+        {
+          "text": "cool down",
+          "weight": 8
+        },
+        {
+          "text": "towel-drying",
+          "weight": 7
+        },
+        {
+          "text": "one idea per sentence",
+          "weight": 10
+        },
+        {
+          "text": "sentence restarts",
+          "weight": 9
+        }
+      ],
+      "completed": true,
+      "supportLevel": "Moderate",
+      "selfCorrection": "Partial. You repeated short corrected sentences successfully, but longer spontaneous explanations still required reformulation.",
+      "repetitionResult": "Successful. You produced the corrected travel sentence and the two-sentence commute explanation clearly after modeling.",
+      "transferResult": "Partial-to-successful. You moved from describing a travel routine to explaining a commute problem, giving reasons, and predicting improvement in autumn, but needed support with sentence structure and natural wording.",
+      "lessonNote": {
+        "summary": [
+          "You described a small change in your travel routine: using a hotel hair dryer instead of only towel-drying your hair.",
+          "You explained that you want to change your morning commute because the walking portion is tiring and the weather is very hot or rainy.",
+          "You practiced adding a future prediction: the commute may become easier when the weather cools down in autumn."
+        ],
+        "learnerSentences": [
+          "When I travel, now use a hair dryer at the hotel, instead of just towel dry my hair.",
+          "I want to change the morning commute, because it's tiring.",
+          "The reason why for this is why I want to change it. I can't walk more. And the weather is very hot.",
+          "Whether it is raining, it is really getting hot.",
+          "It might get better when the weather cools down in the autumn."
+        ],
+        "corrections": [
+          {
+            "original": "When I travel, now use a hair dryer at the hotel, instead of just towel dry my hair.",
+            "selfCorrectionCue": "Put 'now' after the subject, and use -ing after 'instead of.'",
+            "natural": "When I travel, I now use a hair dryer at the hotel instead of just towel-drying my hair.",
+            "reason": "The adverb naturally follows the subject, and 'instead of' is followed by a noun or gerund."
+          },
+          {
+            "original": "I want to change the morning commute, because it's tiring.",
+            "selfCorrectionCue": "Whose commute is it? Use the possessive form.",
+            "natural": "I want to change my morning commute because it's tiring.",
+            "reason": "Use 'my morning commute' for your own routine, and no comma is needed before this short 'because' clause."
+          },
+          {
+            "original": "Whether it is raining, it is really getting hot. You know, the autumn is coming Then ... It's easier to go more than now.",
+            "selfCorrectionCue": "Use 'even when' for contrast, then make one clear future prediction.",
+            "natural": "The weather has been really hot, even when it rains. It might get easier when the weather cools down in autumn.",
+            "reason": "'Whether' introduces alternatives, while 'even when' expresses the contrast you meant. 'Get easier' is more natural than 'go more than now.'"
+          }
+        ],
+        "targetExpressions": [
+          {
+            "expression": "instead of just towel-drying my hair",
+            "meaning": "머리를 수건으로만 말리는 대신",
+            "example": "When I travel, I use the hotel hair dryer instead of just towel-drying my hair."
+          },
+          {
+            "expression": "my morning commute",
+            "meaning": "나의 아침 출근 과정 또는 통근",
+            "example": "My morning commute is tiring because I have to walk quite a long way."
+          },
+          {
+            "expression": "when the weather cools down",
+            "meaning": "날씨가 선선해질 때",
+            "example": "The commute should feel easier when the weather cools down in autumn."
+          }
+        ],
+        "finalVersion": "When I travel, I now use a hair dryer at the hotel instead of just towel-drying my hair. Another routine I would like to improve is my morning commute. I usually take a bus, but I also have to walk part of the way, and that can be tiring. The weather makes it harder because it has been very hot, even on rainy days. I think the commute may feel much easier when the weather cools down in autumn.",
+        "recallQuestions": [
+          "How would you describe the change in your travel hair routine?",
+          "Why do you want to change your morning commute?",
+          "What do you think will make the commute easier in autumn?"
+        ],
+        "answerKey": [
+          "When I travel, I now use a hair dryer at the hotel instead of just towel-drying my hair.",
+          "I want to change my morning commute because the walking part is tiring and the weather has been very hot.",
+          "It might get easier when the weather cools down in autumn."
+        ],
+        "reviewSchedule": [
+          {
+            "date": "2026-08-28",
+            "stage": "D+1",
+            "result": null
+          },
+          {
+            "date": "2026-08-30",
+            "stage": "D+3",
+            "result": null
+          },
+          {
+            "date": "2026-09-03",
+            "stage": "D+7",
+            "result": null
+          }
+        ],
+        "nextChallenge": "Explain one inconvenient everyday routine for 60 seconds using situation, problem, reason, and future improvement without restarting."
+      },
+      "sessionManagementNote": "The learner explicitly requested deeper coverage and longer practice rather than ending after only several minutes. In future sessions, continue with additional speaking tasks until the planned practice time is substantially used unless the learner explicitly saves the session."
     }
   ]
 }
