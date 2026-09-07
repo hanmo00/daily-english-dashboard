@@ -3,7 +3,7 @@
     "title": "AI English Coach Dashboard",
     "learnerLevel": "Upper-Intermediate",
     "targetScore": 8,
-    "generatedAt": "2026-09-02",
+    "generatedAt": "2026-09-08",
     "dataPolicy": "실제 완료 세션만 포함하며 샘플 데이터는 제외합니다.",
     "savePolicy": "음성 인식 여부와 관계없이 텍스트 '세션 저장' 명령을 동일한 GitHub 저장 절차로 처리합니다.",
     "lessonNotePolicy": "완료된 각 세션에는 실제 발화, 핵심 교정, 목표 표현, 최종 버전, 복습 질문과 D+1·D+3·D+7 일정이 포함된 lessonNote를 저장합니다."
@@ -1680,6 +1680,157 @@
         "nextChallenge": "Give a 60-second opinion about one everyday information habit, explain one benefit and one downside, then answer an unexpected skeptical follow-up without restarting sentences."
       },
       "sessionManagementNote": "The session was explicitly saved by the learner after about seven minutes. Future Practice sessions should still use the planned 20–25 minutes unless the learner explicitly ends with the save command."
+    },
+    {
+      "date": "2026-09-08",
+      "sessionType": "Practice",
+      "topic": "Four-Day Workweek: Productivity, Personal Time & Cross-Company Coordination",
+      "mode": "Focus",
+      "minutes": 5,
+      "speakingTurns": 4,
+      "scores": {
+        "유창성": 6.8,
+        "문법": 6.3,
+        "어휘·표현": 6.7,
+        "발음": 7.1,
+        "자신감": null
+      },
+      "overall": 6.7,
+      "grammarErrors": 4,
+      "expressionGaps": 3,
+      "pronunciationIssues": null,
+      "newExpressions": [
+        "personal time",
+        "different schedules make communication harder",
+        "the drawbacks outweigh the benefits"
+      ],
+      "bestSentence": "I work with clients and consultants. Different schedules make communication harder.",
+      "correctedSentence": "I don't think a four-day workweek automatically increases productivity. It can give people more personal time, but different schedules can make communication harder when companies need to coordinate closely.",
+      "feedback": "You gave a clear opinion on the four-day workweek and supported it with a concrete work-related example involving clients and consultants. Your strongest improvement came when you shortened long ideas into complete sentences. The recurring problems were sentence restarts, article and verb-form errors, and trying to express too many ideas at once. Keep one idea per sentence, then add a contrast or conclusion.",
+      "nextChallenge": "Respond to a pro-four-day-workweek argument in 60 seconds using concession, counterargument, one concrete example, and a conclusion without restarting sentences.",
+      "weaknesses": [
+        "sentence structure",
+        "sentence restarts",
+        "verb forms",
+        "articles",
+        "linking and conclusion phrases"
+      ],
+      "keywords": [
+        {
+          "text": "four-day workweek",
+          "weight": 10
+        },
+        {
+          "text": "productivity",
+          "weight": 9
+        },
+        {
+          "text": "personal time",
+          "weight": 8
+        },
+        {
+          "text": "cross-company coordination",
+          "weight": 10
+        },
+        {
+          "text": "different schedules",
+          "weight": 9
+        },
+        {
+          "text": "communication harder",
+          "weight": 9
+        },
+        {
+          "text": "one idea per sentence",
+          "weight": 10
+        }
+      ],
+      "completed": true,
+      "supportLevel": "Moderate",
+      "selfCorrection": "Partial. The learner successfully repeated concise corrected sentences, but the longer counterargument still required restructuring support.",
+      "repetitionResult": "Successful. The learner produced 'I don't think a four-day workweek increases productivity. It gives people more personal time.' and 'I work with clients and consultants. Different schedules make communication harder.' after modeling.",
+      "transferResult": "Partial-to-successful. The learner moved from a general opinion to a concrete cross-company coordination argument, but the final evaluation still needed help to express the trade-off naturally.",
+      "lessonNote": {
+        "summary": [
+          "You discussed whether a four-day workweek would improve productivity or mainly increase personal time.",
+          "You argued that in work involving clients, project owners, and consultants, different work schedules can make communication and coordination harder.",
+          "You practiced shortening a long argument into clear sentences and expressing a balanced conclusion that the model may work in some industries but not all."
+        ],
+        "learnerSentences": [
+          "I would think the four-day working week doesn't increase the productivity of the work.",
+          "It's focused on the private time, such as the leisure time with family.",
+          "I don't think the 4-day work week increase the productivity. It gives people more personal time.",
+          "I work with clients and consultants. Different schedules make communication harder.",
+          "Some cases can be good for applying the four-day workweek, but the positive things is lesser than negative things."
+        ],
+        "corrections": [
+          {
+            "original": "I would think the four-day working week doesn't increase the productivity of the work.",
+            "selfCorrectionCue": "Start directly with your opinion and use a natural noun phrase.",
+            "natural": "I don't think a four-day workweek increases productivity.",
+            "reason": "'I don't think...' is more direct and natural here, and 'productivity' does not need 'of the work.'"
+          },
+          {
+            "original": "It's focused on the private time, such as the leisure time with family.",
+            "selfCorrectionCue": "Use the more natural everyday phrase for time outside work.",
+            "natural": "It gives people more personal time, such as time with family or time for themselves.",
+            "reason": "'Personal time' is more natural than 'private time' in this context, and 'gives people' clearly states the benefit."
+          },
+          {
+            "original": "Some cases can be good for applying the four-day workweek, but the positive things is lesser than negative things.",
+            "selfCorrectionCue": "Use a phrase for disadvantages being stronger than advantages.",
+            "natural": "A four-day workweek may work well in some industries, but overall the drawbacks may outweigh the benefits.",
+            "reason": "'The drawbacks outweigh the benefits' is a natural way to say the negative side may be stronger than the positive side."
+          }
+        ],
+        "targetExpressions": [
+          {
+            "expression": "personal time",
+            "meaning": "업무 외 개인적으로 사용할 수 있는 시간",
+            "example": "A shorter workweek could give employees more personal time without necessarily improving productivity."
+          },
+          {
+            "expression": "different schedules make communication harder",
+            "meaning": "서로 다른 근무 일정 때문에 의사소통이 어려워지다",
+            "example": "When partner companies follow different workweeks, different schedules can make communication harder."
+          },
+          {
+            "expression": "the drawbacks outweigh the benefits",
+            "meaning": "단점이 장점보다 더 크다",
+            "example": "For industries that require daily coordination, the drawbacks may outweigh the benefits."
+          }
+        ],
+        "finalVersion": "I don't think a four-day workweek automatically increases productivity. It can give employees more personal time, which is a clear benefit. However, in my work, I often need to cooperate with clients, project owners, and consultants. If different companies follow different work schedules, communication can become slower and coordination can become more difficult. I think a four-day workweek could work well in some industries, but it may not be suitable for every organization. Overall, the drawbacks could outweigh the benefits when close coordination with outside partners is essential.",
+        "recallQuestions": [
+          "Why don't you think a four-day workweek automatically increases productivity?",
+          "What coordination problem could arise when companies use different work schedules?",
+          "How would you express the idea that the negative side may be stronger than the positive side?"
+        ],
+        "answerKey": [
+          "I think it mainly gives people more personal time, and productivity does not automatically increase just because the workweek is shorter.",
+          "Different schedules can make communication and coordination harder between clients, consultants, and partner companies.",
+          "The drawbacks may outweigh the benefits."
+        ],
+        "reviewSchedule": [
+          {
+            "date": "2026-09-09",
+            "stage": "D+1",
+            "result": null
+          },
+          {
+            "date": "2026-09-11",
+            "stage": "D+3",
+            "result": null
+          },
+          {
+            "date": "2026-09-15",
+            "stage": "D+7",
+            "result": null
+          }
+        ],
+        "nextChallenge": "Respond to a pro-four-day-workweek argument using concession, counterargument, example, and conclusion in 60 seconds without restarting sentences."
+      },
+      "sessionManagementNote": "The learner explicitly saved the session after about five minutes. Future Practice sessions should continue toward the planned 20–25 minutes unless the learner explicitly ends with the save command."
     }
   ]
 }
